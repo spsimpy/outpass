@@ -1,0 +1,86 @@
+
+.header{
+	height:70px;
+	background-color:	#3CB371;
+	margin-top:-33px;
+	 color: black;
+  text-align:center;
+  font-size:25px;
+  font-family:Sofia;
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+.error{color:#FF0000;
+       font-size:24px;}
+label{font-size:30px;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text]{
+  width: 100%;
+  padding: 15px;
+ 
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+
+/* Set a style for all buttons */
+button {
+  background-color:#050520    ;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius:2px;
+  opacity: 0.7;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  color: white;
+margin-left:0px;
+  background-color: none ;
+float: left;
+  width: 100%
+}
+.nextbtn {
+  padding: 14px 20px;
+  margin-left:550px;
+  color: white;
+  background-color: none;
+  
+  width: 20%
+}
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
